@@ -43,3 +43,22 @@ The backend is fully containerized using Docker, making it portable and deployme
 ---
 
 ## Project Structure
+
+health-insurance-cost-predictor-fastapi/
+│
+├── backend/
+│ ├── main.py
+│ ├── prediction_helper.py
+│
+├── frontend/
+│ └── index.html
+│
+├── artifacts/
+│ ├── model_young.joblib
+│ ├── model_rest.joblib
+│ ├── scaler_young.joblib
+│ ├── scaler_rest.joblib
+│
+├── Dockerfile
+├── requirements.txt
+└── README.md
