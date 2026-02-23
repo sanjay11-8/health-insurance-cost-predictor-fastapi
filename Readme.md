@@ -38,7 +38,7 @@ The backend is fully containerized using Docker, making it portable and deployme
 - Pydantic
 - Uvicorn
 - Docker
-- HTML/CSS (Frontend Interface)
+- HTML/CSS
 
 ---
 
@@ -62,3 +62,4 @@ health-insurance-cost-predictor-fastapi/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+
